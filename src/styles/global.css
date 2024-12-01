@@ -1,0 +1,21 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Smooth transitions for theme changes */
+.MuiPaper-root,
+.MuiCard-root,
+.MuiAppBar-root,
+.MuiButton-root {
+  transition: all 0.3s ease-in-out !important;
+}
